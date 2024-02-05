@@ -66,7 +66,7 @@
 - `pip freeze > requirements.txt`: Generate a requirements file.
 
 ## Docker CLI Commands
-- `Ctrl-PQ`: Exit a container.
+- `Ctrl-PQ`: Exit a container without terminating its main process.
 - `docker build -t <repository>:<tag>`: Build a container.
 - `docker buildx`: Docker CLI plugin to support multi-arch builds.
 - `docker exec -it <repository>:<tag>`: Run a command in a running container.
@@ -76,12 +76,13 @@
 - `docker inspect`: Gives the details of an image.
 - `docker manifest inspect`: Inspect the manifest list of any image stored on Docker Hub.
 - `docker pull <repository>:<tag>`: Pull an image or a repository.
-- `docker ps`: List running containers.
+- `docker ps`: List running containers. `-a` flag lists exited containers.
 - `docker rm <repository>:<tag>`: Remove a container.
 - `docker rmi image_name`: Remove an image.
 - `docker rmi $(docker images -q) -f` Delete all images.
 - `docker run -it <repository>:<tag> <app>`: Run an app in a container. `--it` flag connect the current terminal window to the container's shell.
 - `docker run -d --name web1 --publish 8080:8080 <repository>:<tag>`: Run a web container.
+- `docker start`: Start a container.
 - `docker stop <repository>:<tag>`: Stop a running container.
 - `docker version`: Show the Docker version information.
 
