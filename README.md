@@ -23,7 +23,7 @@
 - `sudo su`: Switch to the root user (administrative privileges).
 - `tab`: Autocomplete command.
 
-### Deletion Shortcuts
+### Keyboard Shortcuts
 - `Ctrl + U`: Deletes from the cursor to the beginning of the line.
 - `Ctrl + K`: Deletes from the cursor to the end of the line.
 - `Ctrl + W`: Deletes the word before the cursor.
