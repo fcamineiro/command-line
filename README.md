@@ -1,6 +1,20 @@
 # Terminal Commands
 
-## General Commands
+# Index
+
+- [General](#general)
+- [Deletion Shortcuts](#deletion-shortcuts)
+- [Additional Shortcuts](#additional-shortcuts)
+- [Git](#git)
+- [GitHub](#github)
+- [Conda Commands](#conda-commands)
+- [VS Code Commands](#vs-code-commands)
+- [Docker CLI Commands](#docker-cli-commands)
+- [Multipass Commands](#multipass-commands)
+- [VIM Editor](#vim-editor)
+- [NeuronSphere Commands](#neuronsphere-commands)
+
+## General
 - `awk`: Processing structured text, like tables or databases.
 - `cat filename`: Concatenate file contents.
 - `cd`: Change directory (`/` = root folder; `..` = one level up).
@@ -27,7 +41,7 @@
 - `Ctrl + H`: Delete the character before the cursor (Backspace).
 - `Ctrl + D`: Delete the character under the cursor or close the terminal if the line is empty.
 
-## Git Commands
+## Git
 - `git add .`: Stages all changes in the repository.
 - `git clone https://github.com/...`: Clone a repository.
 - `git commit -m "Comments"`: Commit changes with a message.
@@ -48,17 +62,7 @@
 - Commits: General organization.
 
 ## GitHub
-- `gh repo create <repo-name> --private --clone` 
-
-
-## Conda Commands
-- `conda activate myenv`: Activate an environment.
-- `conda create -n myenv python=3.9`: Create a new environment.
-- `conda deactivate`: Deactivate current environment.
-- `conda info --envs`: List all environments.
-- `conda install pandas`: Install the pandas package.
-- `conda list`: List installed packages.
-- `conda search pandas`: Search for pandas package versions.
+- `gh repo create <repo-name> --private --clone`
 
 ## VS Code Commands
 - `code .`: Open current directory in VS Code.
@@ -86,15 +90,15 @@
 - `docker stop <repository>:<tag>`: Stop a running container.
 - `docker version`: Show the Docker version information.
 
-## Multipass Commands
-- `multipass launch`: Start a new instance.
-- `multipass ls`: List instances.
-- `multipass shell`: Interact with an instance.
-
 ## VIM Editor
 
+## Virtual Environment
+- `python -m venv venv`: Create virtual environment
+- `source venv/bin/activate`: Activate environment
+- `deactivate`: Deactivate environment
 
-## NeuronSphere Commands
+
+## NeuronSphere
 - `python3.9 -m venv ./nsenv`: Create a virtual environment.
 - `source ./nsenv/bin/activate`: Activate the virtual environment.
 - `export HMD_HOME=/Users/fabianoaraujo/Neuronsphere`: Set an environment variable.
