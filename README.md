@@ -3,16 +3,12 @@
 # Index
 
 - [General](#general)
-- [Deletion Shortcuts](#deletion-shortcuts)
-- [Additional Shortcuts](#additional-shortcuts)
+- [Docker](#docker)
 - [Git](#git)
 - [GitHub](#github)
-- [Conda Commands](#conda-commands)
-- [VS Code Commands](#vs-code-commands)
-- [Docker CLI Commands](#docker-cli-commands)
-- [Multipass Commands](#multipass-commands)
-- [VIM Editor](#vim-editor)
-- [NeuronSphere Commands](#neuronsphere-commands)
+- [VIM](#vim)
+- [Virtual Environment](#virtual-environment)
+- [VSCode](#vscode)
 
 ## General
 - `awk`: Processing structured text, like tables or databases.
@@ -27,49 +23,17 @@
 - `sudo su`: Switch to the root user (administrative privileges).
 - `tab`: Autocomplete command.
 
-## Deletion Shortcuts
+### Deletion Shortcuts
 - `Ctrl + U`: Deletes from the cursor to the beginning of the line.
 - `Ctrl + K`: Deletes from the cursor to the end of the line.
-
-### Word by Word Deletion
 - `Ctrl + W`: Deletes the word before the cursor.
 - `Alt + D`: Deletes the word after the cursor (only in some terminals).
-
-## Additional Shortcuts
 - `Ctrl + A`: Move cursor to the beginning of the line.
 - `Ctrl + E`: Move cursor to the end of the line.
 - `Ctrl + H`: Delete the character before the cursor (Backspace).
 - `Ctrl + D`: Delete the character under the cursor or close the terminal if the line is empty.
 
-## Git
-- `git add .`: Stages all changes in the repository.
-- `git clone https://github.com/...`: Clone a repository.
-- `git commit -m "Comments"`: Commit changes with a message.
-- `git init`: Initialize a local Git repo.
-- `git push origin main`: Push changes to the main branch.
-- `git remote add origin <repo-url>`: Connect to a GitHub repo.
-
-### GIT Install
-- Use `Xcode`.
-- Recommended: `miniconda3`, `homebrew`.
-
-### GIT Bash
-- `openssl sha1`: Encrypt files.
-
-### GIT Objects
-- Blobs
-- Trees: Set of blobs, file structure.
-- Commits: General organization.
-
-## GitHub
-- `gh repo create <repo-name> --private --clone`
-
-## VS Code Commands
-- `code .`: Open current directory in VS Code.
-- `flask run -h localhost -p 3000`: Run Flask app.
-- `pip freeze > requirements.txt`: Generate a requirements file.
-
-## Docker CLI Commands
+## Docker
 - `Ctrl-PQ`: Exit a container without terminating its main process.
 - `docker build -t <repository>:<tag>`: Build a container.
 - `docker buildx`: Docker CLI plugin to support multi-arch builds.
@@ -90,13 +54,40 @@
 - `docker stop <repository>:<tag>`: Stop a running container.
 - `docker version`: Show the Docker version information.
 
-## VIM Editor
+## Git
+- `git add .`: Stages all changes in the repository.
+- `git clone https://github.com/...`: Clone a repository.
+- `git commit -m "Comments"`: Commit changes with a message.
+- `git init`: Initialize a local Git repo.
+- `git push origin main`: Push changes to the main branch.
+- `git remote add origin <repo-url>`: Connect to a GitHub repo.
+
+### Install
+- Use `Xcode`.
+- Recommended: `miniconda3`, `homebrew`.
+
+### Bash
+- `openssl sha1`: Encrypt files.
+
+### Objects
+- Blobs
+- Trees: Set of blobs, file structure.
+- Commits: General organization.
+
+## GitHub
+- `gh repo create <repo-name> --private --clone`
+
+## VIM
 
 ## Virtual Environment
 - `python -m venv venv`: Create virtual environment
 - `source venv/bin/activate`: Activate environment
 - `deactivate`: Deactivate environment
 
+## VSCode
+- `code .`: Open current directory in VS Code.
+- `flask run -h localhost -p 3000`: Run Flask app.
+- `pip freeze > requirements.txt`: Generate a requirements file.
 
 ## NeuronSphere
 - `python3.9 -m venv ./nsenv`: Create a virtual environment.
