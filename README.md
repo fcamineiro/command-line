@@ -57,10 +57,12 @@
 ## Git
 - `git add .`: Stages all changes in the repository.
 - `git clone https://github.com/...`: Clone a repository.
-- `git commit -m "Comments"`: Commit changes with a message.
+- `git commit -am "Comments"`: Commit changes with a message.
 - `git init`: Initialize a local Git repo.
 - `git push origin main`: Push changes to the main branch.
 - `git remote add origin <repo-url>`: Connect to a GitHub repo.
+- `git rm -r --cached *__pycache__/`: Remove files or folders from remote repo.
+
 
 ### Install
 - Use `Xcode`.
