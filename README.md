@@ -1,4 +1,4 @@
-# Terminal Commands
+# macOS Terminal Cheat Sheet
 
 # Index
 
@@ -6,9 +6,7 @@
 - [Docker](#docker)
 - [Git](#git)
 - [GitHub](#github)
-- [VIM](#vim)
 - [Virtual Environment](#virtual-environment)
-- [VSCode](#vscode)
 
 ## General
 - `awk`: Processing structured text, like tables or databases.
@@ -63,43 +61,22 @@
 - `git remote add origin <repo-url>`: Connect to a GitHub repo.
 - `git rm -r --cached *__pycache__/`: Remove files or folders from remote repo.
 
-
-### Install
-- Use `Xcode`.
-- Recommended: `miniconda3`, `homebrew`.
-
-### Bash
-- `openssl sha1`: Encrypt files.
-
-### Objects
-- Blobs
-- Trees: Set of blobs, file structure.
-- Commits: General organization.
-
 ## GitHub
 - `gh repo create <repo-name> --private --clone`
 
-## UV
-- `uv venv`: Create a virtual environment at .venv.
-- `source .venv/bin/activate`: activate the virtual environment
-- `deactivate`: deactivate environment
-
-## VIM
+## IDE
+- `code .`: Open current directory in VS Code.
 
 ## Virtual Environment
+- `pip freeze > requirements.txt`: Generate a requirements file.
+
+### Base Python 
 - `python -m venv venv`: Create virtual environment
 - `source venv/bin/activate`: Activate environment
 - `deactivate`: Deactivate environment
 
-## VSCode
-- `code .`: Open current directory in VS Code.
-- `flask run -h localhost -p 3000`: Run Flask app.
-- `pip freeze > requirements.txt`: Generate a requirements file.
+### Mistral UV
+- `uv venv`: Create a virtual environment at .venv.
+- `source .venv/bin/activate`: activate the virtual environment
+- `deactivate`: deactivate environment
 
-## NeuronSphere
-- `python3.9 -m venv ./nsenv`: Create a virtual environment.
-- `source ./nsenv/bin/activate`: Activate the virtual environment.
-- `export HMD_HOME=/Users/fabianoaraujo/Neuronsphere`: Set an environment variable.
-- `nano ~/.zshrc`: Edit the Zsh configuration file.
-- `hmd neuronsphere up/down`: Start or stop NeuronSphere.
-- `deactivate`: Deactivate the virtual environment or exit a script.
