@@ -1,6 +1,6 @@
 # macOS Terminal Cheat Sheet
 
-Personal project (WIP) by @fcamineiro to help with macOS command line interface (CLI). 
+Personal project (WIP) by Fabiano Araujo to help with macOS command line interface (CLI). 
 
 🚧 WIP 🚧
 
