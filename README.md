@@ -79,6 +79,11 @@
 ## GitHub
 - `gh repo create <repo-name> --private --clone`
 
+## UV
+- `uv venv`: Create a virtual environment at .venv.
+- `source .venv/bin/activate`: activate the virtual environment
+- `deactivate`: deactivate environment
+
 ## VIM
 
 ## Virtual Environment
